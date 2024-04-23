@@ -1,3 +1,6 @@
-a = [5, 10, 15, 20, 25]
+from sys import argv
 
-print(a[0], a[-1])
+a = argv[1]
+b = argv[2]
+
+print(a + b)
